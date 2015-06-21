@@ -1,0 +1,12 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+set vsvim_useeditordefaults
+
+" better searching {
+    set ignorecase " case insensitive
+    set smartcase  " unless there's caps in it
+    set incsearch  " incremental highlighting
+    set showmatch  " live match highlighting
+"}
+
+set backspace=indent,eol,start
